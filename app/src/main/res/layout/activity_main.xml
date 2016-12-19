@@ -10,25 +10,25 @@
         android:text="@string/price5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button12"
+        android:id="@+id/product5"
         android:drawableTop="@drawable/drink5_60x60"
-        android:layout_alignBaseline="@+id/button11"
-        android:layout_alignBottom="@+id/button11"
-        android:layout_alignLeft="@+id/button9"
+        android:layout_alignBaseline="@+id/product4"
+        android:layout_alignBottom="@+id/product4"
+        android:layout_alignLeft="@+id/product2"
         android:onClick="onClickBuy"
-        android:layout_alignStart="@+id/button9" />
+        android:layout_alignStart="@+id/product2" />
 
     <Button
         android:text="@string/price6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
+        android:id="@+id/product6"
         android:drawableTop="@drawable/drink6_60x60"
-        android:layout_alignBaseline="@+id/button12"
-        android:layout_alignBottom="@+id/button12"
-        android:layout_alignLeft="@+id/button10"
+        android:layout_alignBaseline="@+id/product5"
+        android:layout_alignBottom="@+id/product5"
+        android:layout_alignLeft="@+id/product3"
         android:onClick="onClickBuy"
-        android:layout_alignStart="@+id/button10" />
+        android:layout_alignStart="@+id/product3" />
 
     <Button
         android:text="@string/coin50"
@@ -54,23 +54,23 @@
         android:text="@string/price3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button10"
+        android:id="@+id/product3"
         android:onClick="onClickBuy"
         android:drawableTop="@drawable/drink3_60x60"
-        android:layout_alignBottom="@+id/button9"
-        android:layout_toRightOf="@+id/button9" />
+        android:layout_alignBottom="@+id/product2"
+        android:layout_toRightOf="@+id/product2" />
 
     <Button
         android:text="@string/price2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button9"
+        android:id="@+id/product2"
         android:onClick="onClickBuy"
         android:drawableTop="@drawable/drink2_60x60"
-        android:layout_alignBaseline="@+id/button8"
-        android:layout_alignBottom="@+id/button8"
-        android:layout_toRightOf="@+id/button8"
-        android:layout_toEndOf="@+id/button8" />
+        android:layout_alignBaseline="@+id/product1"
+        android:layout_alignBottom="@+id/product1"
+        android:layout_toRightOf="@+id/product1"
+        android:layout_toEndOf="@+id/product1" />
 
     <Button
         android:text="@string/coin100"
@@ -86,7 +86,7 @@
         android:text="@string/price1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button8"
+        android:id="@+id/product1"
         android:onClick="onClickBuy"
         android:drawableTop="@drawable/drink1_60x60"
         android:layout_below="@+id/button14"
@@ -97,10 +97,10 @@
         android:text="@string/price4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button11"
+        android:id="@+id/product4"
         android:onClick="onClickBuy"
         android:drawableTop="@drawable/drink4_60x60"
-        android:layout_below="@+id/button8"
+        android:layout_below="@+id/product1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -110,7 +110,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/button"
         android:onClick="onClickDone"
-        android:layout_below="@+id/button11"
+        android:layout_below="@+id/product4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>

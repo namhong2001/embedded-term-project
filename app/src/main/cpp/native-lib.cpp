@@ -1,12 +1,4 @@
 #include <jni.h>
-#include <string>
-#include <errno.h>
-#include <stdio.h>
-#include <string.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <sys/ioctl.h>
-#include <sys/mman.h>
 #include <sys/syscall.h>
 
 #define __NR_seg_write 319
