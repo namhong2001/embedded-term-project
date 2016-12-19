@@ -4,30 +4,113 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.namhoon.nativecexample.MainActivity">
 
-    <EditText
+    <Button
+        android:text="@string/price5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/button12"
+        android:drawableTop="@drawable/drink5_60x60"
+        android:layout_alignBaseline="@+id/button11"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignLeft="@+id/button9"
+        android:onClick="onClickBuy"
+        android:layout_alignStart="@+id/button9" />
+
+    <Button
+        android:text="@string/price6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:drawableTop="@drawable/drink6_60x60"
+        android:layout_alignBaseline="@+id/button12"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_alignLeft="@+id/button10"
+        android:onClick="onClickBuy"
+        android:layout_alignStart="@+id/button10" />
+
+    <Button
+        android:text="@string/coin50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button14"
+        android:onClick="onClickInsertCoin"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Show on segment"
+        android:text="@string/coin1000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
+        android:onClick="onClickInsertCoin"
+        android:id="@+id/button16"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button15"
+        android:layout_toEndOf="@+id/button15" />
+
+    <Button
+        android:text="@string/price3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:onClick="onClickBuy"
+        android:drawableTop="@drawable/drink3_60x60"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_toRightOf="@+id/button9" />
+
+    <Button
+        android:text="@string/price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:onClick="onClickBuy"
+        android:drawableTop="@drawable/drink2_60x60"
+        android:layout_alignBaseline="@+id/button8"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_toRightOf="@+id/button8"
+        android:layout_toEndOf="@+id/button8" />
+
+    <Button
+        android:text="@string/coin100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button15"
+        android:onClick="onClickInsertCoin"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button14"
+        android:layout_toEndOf="@+id/button14" />
+
+    <Button
+        android:text="@string/price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:onClick="onClickBuy"
+        android:drawableTop="@drawable/drink1_60x60"
+        android:layout_below="@+id/button14"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="18dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/price4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:onClick="onClickBuy"
+        android:drawableTop="@drawable/drink4_60x60"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:onClick="onClick" />
+        android:onClick="onClickDone"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Native C Example</string>
+    <string name="price1">400</string>
+    <string name="price2">700</string>
+    <string name="price3">700</string>
+    <string name="price4">600</string>
+    <string name="price5">500</string>
+    <string name="price6">800</string>
+    <string name="price7">900</string>
+    <string name="coin50">50</string>
+    <string name="coin100">100</string>
+    <string name="coin1000">1000</string>
+    <string name="done">done</string>
 </resources>
